@@ -34,8 +34,18 @@
         <script type="text/javascript" src="clipboard.js"></script>
         <script type="text/javascript" src="PCEmulator.js"></script>
         <script type="text/javascript" src="jslinux.js"></script>
+<script type="text/javascript">
+    (function () {
+        var script = document.createElement('script');
+        script.src = "//cdn.jsdelivr.net/npm/eruda";
+        document.body.appendChild(script);
+        script.onload = function () {
+            eruda.init();
+        }
+    })();
+</script>
         </td></tr>
     </table>
     <script src="js/events.js"></script>
 </body>
-</html>
+                             </html>
